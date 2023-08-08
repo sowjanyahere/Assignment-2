@@ -1,0 +1,86 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary_color {
+    color: #192F60;
+}
+
+.secondary_color {
+    color: #8C96AB;
+}
+
+.white_color {
+    color: #ffffff;
+}
+
+.bglight {
+    background-color: #FBFBFB;
+}
+
+.box_shadow {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.custom_card .card-title {
+    font-size: 18px;
+}
+
+.custom_card .card-text {
+    font-size: 14px;
+}
+
+
+.main_con {
+    background-image: linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) ,  url(./images/shutterstock_348320018@2x.png);
+    min-height: 480px;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo_con {
+    width: 147px;
+    line-height: 147px;
+    height: 147px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50%;
+}
+
+.logo_con p {
+    font: normal normal 600 70px/106px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    line-height: 147px;
+}
+
+.input_field {
+    height: 44px;
+    border: 0;
+    background: #fff;
+    color: #636F88;
+    font-size: 1em;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input_field:nth-child(2) {
+    padding-left: 45px;
+}
+
+
+.search_icon {
+    position: absolute;
+    top: 13px;
+    z-index: 99;
+    color: #74819E;
+    left: 25px;
+}
+
+input:focus-visible {
+    outline: 0px;
+}
